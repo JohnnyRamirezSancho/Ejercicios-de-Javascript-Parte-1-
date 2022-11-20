@@ -1,16 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios de Javascript (Parte 1)</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
+    <h2>Ejercicio 1</h2>
     <div id="titulo"></div>
+
+    <h2>Ejercicio 2</h2>
     <div id="resultadoSuma"></div>
 
-    <script src="./src/js/app-1.js"></script>
-    <script src="./src/js/app-2.js"></script>
+    <h2>Ejercicio 3</h2>
+    <div id="saludoUsuario">
+        <form onsubmit="return false;">
+            <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Introduzca su nombre">
+            <button onclick="mostrarSaludo()">enviar</button>
+        </form>
+        <p id="saludo"></p>
+    </div>
+
+    <h2>Ejercicio 4</h2>
+    <div id="sumaDosNumerosInput">
+        <form onsubmit="return false;">
+            <input type="text" name="sumando1" id="sumando1" placeholder="Introduzca el primer número">
+            <input type="text" name="sumando2" id="sumando2" placeholder="Introduzca el segundo número">
+            <button onclick="mostrarSuma2()">enviar</button>
+        </form>
+        <p id="resultadoSuma2"></p>
+    </div>
+
+    <h2>Ejercicio 5</h2>
+    <div id="cualEsMayor">
+        <form onsubmit="return false;">
+            <input type="text" name="numero1" id="numero1" placeholder="Introduzca el primer número">
+            <input type="text" name="numero2" id="numero2" placeholder="Introduzca el segundo número">
+            <button onclick="mostrarNumeroMayor()">enviar</button>
+        </form>
+        <p id="numeroMayor"></p>
+    </div>
+
+    <h2>Ejercicio 6</h2>
+    <div id="cualEsMayordeTres">
+        <form onsubmit="return false;">
+            <input type="text" name="numero1-6" id="numero1-6" placeholder="Introduzca el primer número">
+            <input type="text" name="numero2-6" id="numero2-6" placeholder="Introduzca el segundo número">
+            <input type="text" name="numero3-6" id="numero3-6" placeholder="Introduzca el tercer número">
+            <button onclick="mostrarNumeroMayorDeTres()">enviar</button>
+        </form>
+        <p id="numeroMayorDeTres"></p>
+    </div>
+
+    <script src="./assets/js/app-1.js"></script>
+    <script src="./assets/js/app-2.js"></script>
+    <script src="./assets/js/app-3.js"></script>
+    <script src="./assets/js/app-4.js"></script>
+    <script src="./assets/js/app-5.js"></script>
+    <script src="./assets/js/app-6.js"></script>
 </body>
+
 </html>

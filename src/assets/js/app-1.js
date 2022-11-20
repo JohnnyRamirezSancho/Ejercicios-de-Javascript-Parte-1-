@@ -13,11 +13,12 @@
 
 */
 
-const tituloH1 = '<h1>Hello Javascript</h1>';
+const titulo = 'Hello, Javascript!';
+const h1 = `<h1>${titulo}</h1>`;
 
 function insertarH1(){
-    let divTitulo = document.getElementById('titulo');
-    divTitulo.innerHTML = tituloH1;
+    const divTitulo = document.getElementById('titulo');
+    divTitulo.innerHTML = h1;
 } 
 
 insertarH1();

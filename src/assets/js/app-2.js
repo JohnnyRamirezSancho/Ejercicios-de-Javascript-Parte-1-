@@ -15,13 +15,13 @@
 
 */
 
-const textoSolicitado = 'La suma de 3 + 5 es ';
-let sumando1 = 3;
-let sumando2 = 5;
-let resultado = sumando1 + sumando2; 
+const textoSolicitado = 'La suma de 3 + 5 es igual a ';
+const suma1 = 3;
+const suma2 = 5;
+const resultado = suma1 + suma2; 
 
 function insertarSuma(){
-    let divTextoSuma = document.getElementById('resultadoSuma');
+    const divTextoSuma = document.getElementById('resultadoSuma');
     divTextoSuma.innerHTML = textoSolicitado + resultado;
 } 
 

@@ -20,7 +20,7 @@
     <div id="saludoUsuario">
         <form onsubmit="return false;">
             <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Introduzca su nombre">
-            <button onclick="mostrarSaludo()">enviar</button>
+            <button onclick="mostrarSaludo();">enviar</button>
         </form>
         <p id="saludo"></p>
     </div>
@@ -30,7 +30,7 @@
         <form onsubmit="return false;">
             <input type="text" name="sumando1" id="sumando1" placeholder="Introduzca el primer número">
             <input type="text" name="sumando2" id="sumando2" placeholder="Introduzca el segundo número">
-            <button onclick="mostrarSuma2()">enviar</button>
+            <button onclick="mostrarSuma2();">enviar</button>
         </form>
         <p id="resultadoSuma2"></p>
     </div>
@@ -40,7 +40,7 @@
         <form onsubmit="return false;">
             <input type="text" name="numero1" id="numero1" placeholder="Introduzca el primer número">
             <input type="text" name="numero2" id="numero2" placeholder="Introduzca el segundo número">
-            <button onclick="mostrarNumeroMayor()">enviar</button>
+            <button onclick="mostrarNumeroMayor();">enviar</button>
         </form>
         <p id="numeroMayor"></p>
     </div>
@@ -51,9 +51,37 @@
             <input type="text" name="numero1-6" id="numero1-6" placeholder="Introduzca el primer número">
             <input type="text" name="numero2-6" id="numero2-6" placeholder="Introduzca el segundo número">
             <input type="text" name="numero3-6" id="numero3-6" placeholder="Introduzca el tercer número">
-            <button onclick="mostrarNumeroMayorDeTres()">enviar</button>
+            <button onclick="mostrarNumeroMayorDeTres();">enviar</button>
         </form>
         <p id="numeroMayorDeTres"></p>
+    </div>
+
+    <h2>Ejercicio 7</h2>
+    <div id="contarLetraEnFrase">
+        <form onsubmit="return false;">
+            <input type="text" name="frase_7" id="frase_7" placeholder="Introduzca su frase">
+            <input type="text" name="letra_7" id="letra_7" placeholder="Introduzca la letra a buscar">
+            <button onclick="queFraseyLetra_7();">enviar</button>
+        </form>
+        <p id="queFraseyLetra_7"></p>
+    </div>
+
+    <h2>Ejercicio 8</h2>
+    <div id="contarVocalesEnFrase">
+        <form onsubmit="return false;">
+            <input type="text" name="frase_8" id="frase_8" placeholder="Introduzca su frase">
+            <button onclick="queFrase_8();">enviar</button>
+        </form>
+        <p id="queFrase_8"></p>
+    </div>
+
+    <h2>Ejercicio 9</h2>
+    <div id="contarTodasVocalesEnFrase">
+        <form onsubmit="return false;">
+            <input type="text" name="frase_9" id="frase_9" placeholder="Introduzca su frase">
+            <button onclick="queFrase_9();">enviar</button>
+        </form>
+        <p id="queFrase_9"></p>
     </div>
 
     <script src="./assets/js/app-1.js"></script>
@@ -62,6 +90,7 @@
     <script src="./assets/js/app-4.js"></script>
     <script src="./assets/js/app-5.js"></script>
     <script src="./assets/js/app-6.js"></script>
-</body>
-
+    <script src="./assets/js/app-7.js"></script>
+    <script src="./assets/js/app-8.js"></script>
+    <script src="./assets/js/app-9.js"></script>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Javascript (Parte 1)</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <h2>Ejercicio 6</h2>
+    <p>Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.</p>
+    <div id="cualEsMayordeTres">
+        <form onsubmit="return false;">
+            <input type="text" name="numero1" id="numero1" placeholder="Introduzca el primer número">
+            <input type="text" name="numero2" id="numero2" placeholder="Introduzca el segundo número">
+            <input type="text" name="numero3" id="numero3" placeholder="Introduzca el tercer número">
+            <button onclick="mostrarNumeroMayorDeLosTres();">enviar</button>
+        </form>
+        <p id="numeroMayorDeTres"></p>
+    </div>
+
+    <script src="./app-6.js"></script>
+</body>
+
+</html>

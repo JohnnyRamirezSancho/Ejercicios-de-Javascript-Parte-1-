@@ -13,11 +13,11 @@
 
 */
 
+const divTitulo = document.getElementById('titulo');
 const titulo = 'Hello, Javascript!';
 const h1 = `<h1>${titulo}</h1>`;
 
 function insertarH1(){
-    const divTitulo = document.getElementById('titulo');
     divTitulo.innerHTML = h1;
 } 
 

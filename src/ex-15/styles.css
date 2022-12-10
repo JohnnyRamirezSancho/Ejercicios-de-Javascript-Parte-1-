@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 650px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+div {
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+form {
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+    input {
+    display: block;
+    margin-bottom: 7px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    border: 1px solid black;
+    padding: 3px 0;
+    width: 75px;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+}

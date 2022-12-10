@@ -1,6 +1,6 @@
 /*
 
-* Ejercicio 1
+* Ejercicio 3
 * Escribe un programa que escriba en la pantalla “La suma de 3 + 5 es <resultado>”.
 *
 * * Conectamos este fichero de javaScript con index.html
@@ -14,10 +14,10 @@
 * * Lo imprimiremos en pantalla
 
 */
+const nombre = document.getElementById('nombreUsuario');
+const mensajeTxt = document.getElementById("saludo");
 
 function mostrarSaludo() {
-    const nombre = document.getElementById('nombreUsuario');
     nombreUsuario = nombre.value;
-    const mensajeTxt = document.getElementById("saludo");
-    mensajeTxt.innerHTML = `Hola, ${nombreUsuario}.`;
+    mensajeTxt.innerHTML = `Hola ${nombreUsuario}`;
 }

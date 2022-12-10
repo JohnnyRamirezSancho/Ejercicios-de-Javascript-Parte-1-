@@ -16,16 +16,17 @@ h1 {
     margin-bottom: 15px;
 }
 
-li {
-    margin-bottom: 5px;
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
-a {
-    text-decoration: none;
-    color: #ff9900;
-    transition: all 0.4s;
+div {
+    border-top: 1px solid black;
+    padding-top: 25px;
 }
 
-a:hover {
-    letter-spacing: 2px;
+p {
+    margin-bottom: 15px;
 }

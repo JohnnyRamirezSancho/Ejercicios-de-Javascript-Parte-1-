@@ -1,6 +1,6 @@
 /*
 
-* Ejercicio 1
+* Ejercicio 2
 * Escribe un programa que escriba en la pantalla “La suma de 3 + 5 es <resultado>”.
 *
 * Conectamos este fichero de javaScript con index.html
@@ -15,14 +15,14 @@
 
 */
 
-const textoSolicitado = 'La suma de 3 + 5 es igual a ';
-const suma1 = 3;
-const suma2 = 5;
-const resultado = suma1 + suma2; 
+const divTextoSuma = document.getElementById('resultadoSuma');
 
-function insertarSuma(){
-    const divTextoSuma = document.getElementById('resultadoSuma');
-    divTextoSuma.innerHTML = textoSolicitado + resultado;
+function mostrarSuma(){
+    const numero1 = 3;
+    const numero2 = 5;
+    const resultado = numero1 + numero2; 
+    const textoRespuesta = 'La suma de 3 + 5 es ';
+    divTextoSuma.innerHTML = textoRespuesta + resultado;
 } 
 
-insertarSuma();
+mostrarSuma();
